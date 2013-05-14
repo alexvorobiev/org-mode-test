@@ -1,0 +1,48 @@
+* First level header, code block is not indented, code is not indented, lower case keywords
+#+begin_src emacs-lisp
+(setq one 1)
+(defun f (x)
+  (1+ x))
+#+end_src
+* First level header, code block is not indented, code is indented, lower case keywords
+#+begin_src emacs-lisp
+  (setq one 1)
+  (defun f (x)
+    (1+ x))
+#+end_src
+* First level header, code block is not indented, code is not indented, upper case keywords
+#+BEGIN_SRC emacs-lisp
+(setq one 1)
+(defun f (x)
+  (1+ x))
+#+END_SRC
+* First level header, code block is not indented,  code is indented, upper case keywords
+#+BEGIN_SRC emacs-lisp
+  (setq one 1)
+  (defun f (x)
+    (1+ x))
+#+END_SRC
+* First level header, code block is indented, code is not indented, lower case keywords
+  #+begin_src emacs-lisp
+  (setq one 1)
+  (defun f (x)
+    (1+ x))
+  #+end_src
+* First level header, code block is indented, code is indented, lower case keywords
+  #+begin_src emacs-lisp
+    (setq one 1)
+    (defun f (x)
+      (1+ x))
+  #+end_src
+* First level header, code block is indented, code is not indented, upper case keywords
+  #+BEGIN_SRC emacs-lisp
+  (setq one 1)
+  (defun f (x)
+    (1+ x))
+  #+END_SRC
+* First level header, code block is indented,  code is indented, upper case keywords
+  #+BEGIN_SRC emacs-lisp
+    (setq one 1)
+    (defun f (x)
+      (1+ x))
+  #+END_SRC
